@@ -62,3 +62,24 @@
     align-items: center;
     gap: 20px;
 }
+
+@media screen and (max-width: 1170px) {
+    #container_menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-pizza {
+        width: calc(50% - 12px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-pizza {
+        width: calc(100% - 12px);
+    }
+
+    #menu .section-subtitle {
+        text-align: center;
+    }
+}
