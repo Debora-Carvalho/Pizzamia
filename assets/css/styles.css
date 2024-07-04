@@ -30,6 +30,7 @@ html {
 }
 
 body {
+    margin-top: 91px;
     background-color: #fff9ea;
     height: 100%; 
 }

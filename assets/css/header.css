@@ -1,10 +1,11 @@
 header {
-    width: 100%;
+    position: fixed; /* Fixa o header no topo */
+    top: 0; /* Posiciona no topo */
+    left: 0;
     padding: 28px 8%;
-    position: sticky;
-    top: 0;
-    background-color: #fff9ea;
-    z-index: 3;
+    width: 100%; /* Faz o header ocupar toda a largura */
+    background-color: #fff9ea; /* Mantém a cor de fundo do header */
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
 }
 
 #navbar {
