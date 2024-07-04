@@ -3,13 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experimente nossas deliciosas pizzas!">
     <link rel="shortcut icon" type="imagex/png" href="assets/img/logo-pizza.png">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="stylesheet" href="assets/css/menu.css">
-    <link rel="stylesheet" href="assets/css/testimonials.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -62,7 +58,7 @@
                     Deliciosas pizzas artesanais feitas com ingredientes frescos e muito amor. Venha experimentar!
                 </p>
                 <div id="cta_buttons">
-                    <a href="#" class="btn-default">Ver cardápio</a>
+                    <a href="#menu" class="btn-default">Ver cardápio</a>
                     <a href="tel:+5511923656813" id="phone_button">
                         <button class="btn-default">
                             <i class="fa-solid fa-phone"></i>
@@ -85,7 +81,7 @@
             <h2 class="section-title">Cardápio</h2>
             <h3 class="section-subtitle">Nossas pizzas especiais</h3>
             <div id="container_menu">
-                <div class="card-pizza">
+                <!-- <div class="card-pizza">
                     <div class="pizza-heart"><i class="fa-solid fa-heart"></i></div>
                     <img class="pizza-image" src="assets/img/pizza-quatroQueijos.png" alt="Pizza Quatro Queijos">
                     <h3 class="pizza-title">Quatro queijos</h3>
@@ -102,8 +98,8 @@
                         <h4>R$ 45,00</h4>
                         <button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
                     </div>
-                </div>
-                <div class="card-pizza">
+                </div> -->
+                <!-- <div class="card-pizza">
                     <div class="pizza-heart"><i class="fa-solid fa-heart"></i></div>
                     <img class="pizza-image" src="assets/img/pizza-calabresa.png" alt="Pizza de Calabresa">
                     <h3 class="pizza-title">Calabresa</h3>
@@ -120,7 +116,7 @@
                         <h4>R$ 45,00</h4>
                         <button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
                     </div>
-                </div>
+                </div> -->
                 <div class="card-pizza">
                     <div class="pizza-heart"><i class="fa-solid fa-heart"></i></div>
                     <img class="pizza-image" src="assets/img/pizza-escarola.png" alt="Pizza de Escarola">
@@ -206,10 +202,10 @@
                 <h3 class="section-subtitle">O que nossos clientes falam sobre nós</h3>
                 <div id="container_feedback">
                     <div class="feedback">
-                        <img class="feedback-avatar" src="" alt="">
+                        <img class="feedback-avatar" src="assets/img/img_perfilMarinaPontes.png" alt="Avatar do cliente">
                         <div class="feedback-content">
                             <p>
-                                Nome
+                                <b>Marina Pontes</b>
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -223,10 +219,10 @@
                     </div>
 
                     <div class="feedback">
-                        <img class="feedback-avatar" src="" alt="">
+                        <img class="feedback-avatar" src="assets/img/img_perfilLucasSantos.png" alt="Avatar do cliente">
                         <div class="feedback-content">
                             <p>
-                                Nome
+                                <b>Lucas Santos</b>
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -247,14 +243,19 @@
     </main>
 
     <footer>
-        <img src="" alt="">
+        <img src="assets/img/wave.svg" alt="">
         <div id="footer_items">
-            <span id="copyright">&copy 2024 Débora Carvalho</span>
+            <div class="logo-pizzamia">
+                <i class="fa-solid fa-pizza-slice"> pizzamia</i>
+            </div>
+            
             <div class="social-media-buttons">
                 <a href=""><i class="fa-brands fa-whatsapp"></i></a>
                 <a href=""><i class="fa-brands fa-instagram"></i></a>
                 <a href=""><i class="fa-brands fa-facebook"></i></a>
             </div>
+
+            <span id="copyright">&copy 2024 | Made with 🧡 and pizza by Débora Carvalho</span>
         </div>
     </footer>
 
