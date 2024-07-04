@@ -6,6 +6,10 @@
     --color-primary-3: #f8d477;
     --color-primary-4: #e9a100;
     --color-primary-5: #ffcd45;
+    --color-primary-6: #e9a209;
+
+    --color-neutral-0: #fff;
+    --color-neutral-1: #1d1d1d;
 }
 
 * {
@@ -13,6 +17,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

@@ -11,6 +11,12 @@
     height: auto;
 }
 
+#testimonials_image img {
+    width: 80%;
+    height: auto;
+    border-radius: 40% 30% 40% 30%;
+}
+
 #testimonials .section-subtitle {
     font-size: 3rem;
 }
