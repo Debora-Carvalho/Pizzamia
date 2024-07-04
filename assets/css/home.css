@@ -1,11 +1,12 @@
 #home {
     display: flex;
-    min-height: calc(100vh - 91px);
+    height: 100vh; 
     position: relative;
+    padding: 28px 8%;
 }
 
 #cta {
-    width: 35%;
+    width: 40%; 
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -54,19 +55,19 @@
     display: flex;
     align-items: start;
     justify-content: end;
-    width: 70%;
+    width: 60%; 
     z-index: 2;
 }
 
 #banner img {
-    height: 15%;
+    height: 90%;
     width: auto;
 }
 
 .shape {
     background-color: #ffe8b4;
     width: 50%;
-    height: 16%;
+    height: 90%;
     position: absolute;
     border-radius: 40% 30% 0% 20%;
     top: 0;

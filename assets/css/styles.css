@@ -26,10 +26,12 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%; 
 }
 
 body {
     background-color: #fff9ea;
+    height: 100%; 
 }
 
 section {

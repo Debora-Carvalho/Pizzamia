@@ -19,4 +19,8 @@ footer {
         flex-direction: column;
         gap: 20px;
     }
+
+    #footer_items .logo-pizzamia {
+        display: none;
+    }
 }
