@@ -1,5 +1,5 @@
 <p align="center">
-  <img loading="lazy" src="assets/img/capa-projetoPizzamia.jpeg"  width="600" height="auto"  alt="Capa do projeto 'Relógio Digital'"/>
+  <img loading="lazy" src="assets/img/capa-projetoPizzamia.jpeg"  width="600" height="auto"  alt="Capa do projeto 'Pizzamia'"/>
 </p>
 
 <h1>🍕Pizzamia</h1>
